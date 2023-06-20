@@ -1,0 +1,86 @@
+* {
+    font-family: "Comic Sans MS", "Comic Sans";
+}
+.topContainer {
+    background-color: rgb(204,204,204);
+    margin: 0 20px 20px 20px;
+    padding: 0 20px;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.dojonary {
+    font-size: 25px;
+}
+.main{
+    margin: 20px;;
+}
+.loginButton {
+    background-color: rgb(43,120,228);
+    color: white;
+    box-shadow: 2px 2px black;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+}
+.rightSide{
+    justify-content: center;
+    margin: 0 25px;
+    flex: 1;
+
+}
+.leftSide{
+    justify-content: center;
+    flex: 2;
+    margin: 0 25px;
+    
+}
+.ninja1{
+    border: solid black;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.ninja1Left{
+    flex: 1;
+    text-align: center;
+}
+.ninja1Right{
+    flex: 2;
+    text-align: center;
+}
+.definedByYou{
+    border: solid black;
+    margin: 25px 0;
+    text-align: center;
+}
+.ninja2{
+    border: solid black;
+    margin: 25px 0;
+    display: flex;
+    align-items: center;
+}
+.ninja2Left{
+    flex: 1;
+    text-align: center;
+
+}
+.ninja2Right{
+    flex: 2;
+    text-align: center;
+
+}
+.likes{
+    background-color: rgb(255,217,102);
+    color: black;
+    border: solid 1px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px;
+}
+.addDef{
+    background-color: rgb(147,196,125);
+    box-shadow: 2px 2px;
+    margin-bottom: 10px;
+}
